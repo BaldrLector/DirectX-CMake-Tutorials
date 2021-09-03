@@ -1,0 +1,33 @@
+Checks: "*,-hicpp-signed-bitwise,-google-readability-namespace-comments,-llvm-namespace-comment,-modernize-use-trailing-return-type,-cppcoreguidelines-avoid-magic-numbers,-readability-magic-numbers"
+
+WarningsAsErrors: "*,-cppcoreguidelines-avoid-c-arrays,-hicpp-avoid-c-arrays"
+HeaderFilterRegex: ""
+AnalyzeTemporaryDtors: false
+FormatStyle: file
+CheckOptions:
+  - key: modernize-loop-convert.MinConfidence
+    value: reasonable
+  - key: readability-identifier-naming.VariableCase
+    value: lower_case
+  - key: readability-identifier-naming.FunctionCase
+    value: lower_case
+  - key: readability-identifier-naming.GlobalConstantCase
+    value: UPPER_CASE
+  - key: readability-identifier-naming.PrivateMemberSuffix
+    value: _
+  - key: bugprone-argument-comment.IgnoreSingleArgument
+    value: 1
+  - key: bugprone-argument-comment.CommentBoolLiterals
+    value: 1
+  - key: bugprone-argument-comment.CommentIntegerLiterals
+    value: 1
+  - key: bugprone-argument-comment.CommentFloatLiterals
+    value: 1
+  - key: bugprone-argument-comment.CommentStringLiterals
+    value: 1
+  - key: bugprone-argument-comment.CommentCharacterLiterals
+    value: 1
+  - key: bugprone-argument-comment.CommentUserDefinedLiterals
+    value: 1
+  - key: bugprone-argument-comment.CommentNullPtrs
+    value: 1
