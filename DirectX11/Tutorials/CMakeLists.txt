@@ -1,4 +1,5 @@
-
+include_directories("$ENV{DXSDK_DIR}/Include")
+link_directories("$ENV{DXSDK_DIR}/Lib/x64")
 # tutorials
 add_subdirectory(Tutorial01)
 add_subdirectory(Tutorial02)

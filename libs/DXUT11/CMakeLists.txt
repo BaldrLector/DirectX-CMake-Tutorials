@@ -1,4 +1,0 @@
-add_compile_definitions(UNICODE _UNICODE)
-
-add_subdirectory(Core)
-add_subdirectory(Optional)

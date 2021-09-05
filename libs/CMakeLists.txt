@@ -1,4 +1,4 @@
 
 #add_subdirectory(DXUT)
-add_subdirectory(DXUT11)
+add_subdirectory(DXUT)
 
